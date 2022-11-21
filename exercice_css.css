@@ -1,0 +1,7 @@
+div * p{text-align-last: center;color: blanchedalmond;}
+div * li{color:brown;}
+
+#menu > p li .sel{front-size:3em;}
+h1 + h2 {margin-top:-5mm;}
+h1.opener + h2 {margin-top: -600mm;}
+h2 + p {margin-top:150em;}
