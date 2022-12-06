@@ -19,7 +19,17 @@ ol li {list-style-type: upper-roman;}
 ol li ol li {list-style-type: lower-latin;}
 ol li ol li ol li {list-style-type: lower-roman;}
 
-
+nav {
+	position : absolute;
+	left : 650px;
+	width:115px;
+	color: white;
+	background-color: whitesmoke;
+	border-style: solid;
+	border-color: darkred;
+	font-family: "arial";
+	padding: 1px;
+}
 
 
 
