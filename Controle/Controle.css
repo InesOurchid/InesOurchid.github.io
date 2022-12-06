@@ -21,8 +21,7 @@ ol li ol li ol li {list-style-type: lower-roman;}
 
 nav {
 	position : absolute;
-	left : 650px;
-	width:115px;
+	text-align: center;
 	color: white;
 	background-color: whitesmoke;
 	border-style: solid;
