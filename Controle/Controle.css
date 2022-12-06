@@ -1,0 +1,25 @@
+body {
+	background-image: url("ciment.jpg");
+}
+
+h1 {text-align: center;}
+
+h2 {color: blue;
+background-color: grey;}
+p {text-align: left;
+margin-left: 16px;
+margin-right: 16px}
+
+.surligne{background-color: seashell;}
+p.surligne{background-color:seashell;}
+span.surligne{background-color:yellow;}
+div.surligne{background-color:slateblue;}
+
+ol li {list-style-type: upper-roman;}
+ol li ol li {list-style-type: lower-latin;}
+ol li ol li ol li {list-style-type: lower-roman;}
+
+
+
+
+

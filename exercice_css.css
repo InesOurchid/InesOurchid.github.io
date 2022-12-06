@@ -5,3 +5,4 @@ div * li{color:brown;}
 h1 + h2 {margin-top:-5mm;}
 h1.opener + h2 {margin-top: -600mm;}
 h2 + p {margin-top:150em;}
+.surligne{color:seashell;}
