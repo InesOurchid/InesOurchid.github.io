@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="8122022exercice.css">
+		<title> VOITURES</title>
+		<body>
+			<h1> LES VOITUUURES </h1>
+			<fieldset>
+			<legend> <h2>Répond :</h2> </legend>
+			<input type="checkbox" id="case" name="groupe1" value="case">
+			<label for="case">Coche si tu as une voiture</label>
+
+			<div>
+				<br>
+				<input type="checkbox" id="case" name="groupe1" value="case">
+				<label for="case">ou une bagnole</label>
+			</div>
+
+			<div>
+				<br>
+				<input type="checkbox" name="case2">
+				<label for="case2"> piéton ? </label>
+			</div>
+			</fieldset>
+
+			<h2>Quel est le meilleur moyen de transport</h2>
+			<div>
+				<button type="button"> <h3> BUS </h3> </button>
+				<button type="button"> <h3> METRO </h3> </button>
+				<button type="button"> <h3> VOITUUURE </h3> </button>
+			</div>
+
+			<h2>Déroule</h2>
+			<div>
+			<label for="cars">Choisis une bagnole:</label>
+
+			<select name="cars" id="cars">
+  				<option value="volvo">Opel</option>
+  				<option value="saab">Clio1</option>
+				<option value="mercedes">twingo verte</option>
+				<option value="audi">ford focus 2002</option>
+			</select>
+			</div>
+
+
+			<h2>Quelque chose à rajouter sur les bagnoles ?</h2>
+			<form method="post" action="ton_script_recup_data">
+
+			<form action="/html/tags/html_form_tag_action.cfm" method="post">
+				<div>
+					<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+					Ecris ici
+					</textarea>
+				</div>
+			<input type="submit" value="envoyer">
+			</form>
+
+
+
+
+		</body>
+	
+</html>
+
