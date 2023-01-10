@@ -1,0 +1,120 @@
+<!Doctype html>
+<html lang="fr">
+
+	<head>
+
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<title> Lettre demande droit d'accès </title>
+
+		<link rel="stylesheet"type="text/css"
+		href="main.css">
+		<!-- Ce lien correspond au document CSS qui se charge de la mise en forme de notre html -->
+		<link rel="stylesheet"type="text/css"href="impression.css"media="print"> 
+		<!-- Ce lien correspond au document css qui se charge de la mise en forme de notre PDF d'impression. Il renvoie au CSS qui règle la mise en forme du PDF d'impression -->
+
+	</head>
+
+	<body>
+
+		<div id="bloc_page">
+			<header>
+				<img src="logo.png" alt="Logo_page" title="Accueil" id="logo"/>
+
+		<div class="contactez-nous">
+			<h1>Formulaire demande droit d'accès</h1> 
+			<p>Ce formulaire vous permet d'exercer votre droit d'accès conformément à l'article 15 du Réglement Général à la Protection des données (Reg UE 2016) </p>
+
+			<fieldset>
+			
+
+			<legend> <h2> Vous êtes : </h2> </legend>
+			
+			<div>
+				<br>
+				<input type="checkbox" id="case" name="groupe1" value="case">
+				<label for="case"> Un étudiant </label>
+			</div>
+
+			<div> 
+				<br>
+				<input type="checkbox" name="case2" value="case">
+				<label for="case"> Un membre du corps enseignant </label>
+			</div>
+
+			<div> 
+				<br>
+				<input type="checkbox" id="case" name="groupe1" value="case">
+				<label for="case"> Un salarié de l'Université </label>
+			</div>
+
+		<br>
+		<form action="/page-traitement-donnees" method="post">
+			<div>
+				<label for="nom">Votre nom</label>
+				<input type="text" id="nom" name="nom" placeholder="Martin" required>
+			</div>
+
+			<div>
+				<label for="email">Votre e-mail</label>
+				<input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+			</div>
+
+			<br>
+
+	</fieldset>	
+
+			<br>
+
+	<fieldset> 
+
+		<legend> <h2> L'objet de votre demande : </h2> </legend>
+
+			<div>
+				<label for="sujet">Quel est l'objet de votre demande de droit d'accès ?</label>
+				<select name="sujet" id="sujet" required>
+					<option value="" disabled selected hidden>Choisissez le sujet de votre demande de droit d'accès </option>
+					<option value="probleme-compte"> Les critères de sélection en Master </option>
+					<option value="question-produit"> Les données utilisées pour la selection en master </option>
+					<option value="suivi-commande"> Accès à toutes les données que possèdent l'UPEC</option>
+					<option value="autre">Autre...</option>
+				</select>
+			</div>
+
+		<br>
+		<legend> Votre demande porte t-elle sur des questions relatives à l'utilisation d'un algorithme relatif à une sélection ? </legend>
+			
+			<div>
+				<input type="checkbox" id="case" name="groupe1" value="case">
+				<label for="case"> Oui </label>
+			</div>
+
+			<div> 
+				<br>
+				<input type="checkbox" name="case2" value="case">
+				<label for="case"> Non </label>
+			</div>
+
+
+			<div>
+				<label for="message">Votre demande...</label>
+				<textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+			</div>
+
+			<div>
+				<br>
+				<label for ="start"> Fait le : </label>
+				<input type="date" id="start" name="trip-start" value="2018-07-22 min="2023-01-01" max="2023-12-31">
+
+			</div>
+
+			<div>
+				<br>
+				<button type="submit">Envoyer ma demande </button>
+			</div>
+
+
+		</form>
+		</fieldset>	
+	</body>
+</html>

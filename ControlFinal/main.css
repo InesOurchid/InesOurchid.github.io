@@ -1,0 +1,16 @@
+img {text-align: right;
+ 	width: 100px;
+ 	height:100px;
+ 	margin-left:auto;}
+
+
+div * p{text-align-last: center;color: black;}
+div * li{color:black;}
+
+#menu > p li .sel{front-size:3em;}
+h1 + h2 {margin-top:-5mm;}
+h1.opener + h2 {margin-top: -600mm;}
+h2 + p {margin-top:150em;}
+.surligne{color:seashell;}}
+
+
